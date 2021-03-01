@@ -1,0 +1,59 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "DirtyDNS is an DNS forwarder written in Shell script similar with ChinaDNS."
+msgstr "DirtyDNS是用Shell脚本编写的类似于ChinaDNS的防DNS污染工具"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "General Setting"
+msgstr "基本设置"
+
+msgid "Listen Port"
+msgstr "监听端口"
+
+msgid "Dirty DNS Upstream"
+msgstr "脏DNS上游"
+
+msgid "Secured DNS Upstream"
+msgstr "可信DNS上游"
+
+msgid "China Ipset Name"
+msgstr "中国Ipset名称"
+
+msgid "Dirty response will be used only if response matches China ipset"
+msgstr "只有当DNS解析结果在中国Ipset中，才会使用脏DNS上游的解析结果"
+
+msgid "Creat Ipset""
+msgstr "创建Ipset"
+
+msgid "If there is already an China ipset, you do not need to check this"
+msgstr "如果已经有现成的中国Ipset，则可以复用，不需要选择此项"
+
+msgid "Auto Update Ipset""
+msgstr "自动更新Ipset"
+
+msgid "Auto update China ipset at 3:00 on Saturday"
+msgstr "每周六3:00自动更新中国IP范围列表"
+
+msgid "Update Ipset Now"
+msgstr "立刻更新Ipset"
+
+msgid "Refresh"
+msgstr "更新"
+
+msgid "Refresh..."
+msgstr "正在更新，请稍候.."
+
+msgid "Refresh OK!"
+msgstr "更新成功！"
+
+msgid "Refresh Error!"
+msgstr "更新失败！"
+
+msgid "NOT RUNNING"
+msgstr "未运行"
+
+msgid "RUNNING"
+msgstr "运行中"

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+uci -q batch <<-EOF >/dev/null
+	delete ucitrack.@dirtydns[-1]
+	add ucitrack dirtydns
+	set ucitrack.@dirtydns[-1].init=dirtydns
+	commit ucitrack
+EOF
+
+rm -f /tmp/luci-indexcache
+exit 0

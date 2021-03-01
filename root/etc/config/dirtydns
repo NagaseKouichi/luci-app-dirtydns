@@ -1,0 +1,9 @@
+
+config dirtydns
+  option enable '0'
+  option port '5353'
+  option ipset_dirty 'chnroute'
+  option dirty_upstream '114.114.114.114:53'
+  option secured_upstream '127.0.0.1:5053'
+  option creat_ipset '0'
+  option auto_update_ipset '0'

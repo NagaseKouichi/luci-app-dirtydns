@@ -2,10 +2,10 @@
 
 export BIND_PORT=${1:-"5353"}
 
-export DIRTY_UPSTREAM=${2:-"8.8.8.8:53"}
-export SECURED_UPSTREAM=${3:-"127.0.0.1:5300"}
+export DIRTY_UPSTREAM=${2:-"114.114.114.114:53"}
+export SECURED_UPSTREAM=${3:-"127.0.0.1:5053"}
 
-export DIRTY_IPSET=${4:-'ss_spec_dst_bp'}
+export DIRTY_IPSET=${4:-'chnroute'}
 
 cat << MESSAGE
 DirtyDNS query pipeline:
